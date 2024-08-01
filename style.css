@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    padding: 0 20px;
+    display: flex;
+    background-color: black;
+    height: 150px;
+    align-items: center;
+}
+.cabecalho{
+    display: flex;
+    gap: 60px;
+    flex-grow: 1;
+    justify-content: center;
+}
+.principal a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cabecalho a:hover{
+    color: red;
+}
+.logo{
+    width: 100px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    height: 200px;
+    background-color: rgb(168, 21, 21);
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.accord img{
+    width: 350px;
+    border-radius: 15px;
+
+}
+.accord p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.crv img{
+    width: 350px;
+    border-radius: 15px;
+
+}
+.crv p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.city img{
+    width: 350px;
+    border-radius: 15px;
+
+}
+.city p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: black;
+    padding: 15px;
+}
+
+.contatos{
+    font-size: 20px;
+    color: white;
+}
+
+.contatos_info{
+    font-size: 15px;
+    color: white;
+}
+
